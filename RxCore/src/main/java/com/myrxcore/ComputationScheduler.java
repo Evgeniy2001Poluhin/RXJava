@@ -1,4 +1,4 @@
-package ru.mishazx;
+package com.myrxcore;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

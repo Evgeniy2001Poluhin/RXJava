@@ -1,4 +1,8 @@
-package ru.mishazx;
+package com.myrxcore;
+
+import com.myrxcore.ComputationScheduler;
+import com.myrxcore.IOThreadScheduler;
+import com.myrxcore.SingleThreadScheduler;
 
 public class Schedulers {
     private static final Scheduler IO = new IOThreadScheduler();

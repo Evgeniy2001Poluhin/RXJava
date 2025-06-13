@@ -1,6 +1,10 @@
-package ru.mishazx;
+package com.myrxcore;
 
 import java.util.concurrent.TimeUnit;
+import com.myrxcore.Observable; 
+import com.myrxcore.Schedulers;
+import com.myrxcore.Disposable;
+import com.myrxcore.Observer;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

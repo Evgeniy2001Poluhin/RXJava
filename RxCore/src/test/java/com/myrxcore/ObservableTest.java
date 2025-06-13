@@ -1,4 +1,4 @@
-package ru.mishazx;
+package com.myrxcore;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,6 +10,11 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import com.myrxcore.Observable;
+import com.myrxcore.Observer;
+import com.myrxcore.Disposable;
+import com.myrxcore.Schedulers;
 
 class ObservableTest {
 

@@ -1,13 +1,13 @@
-package ru.mishazx;
+package com.myrxcore;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class SingleThreadScheduler implements Scheduler {
+public class IOThreadScheduler implements Scheduler {
     private final ExecutorService executor;
 
-    public SingleThreadScheduler() {
-        this.executor = Executors.newSingleThreadExecutor();
+    public IOThreadScheduler() {
+        this.executor = Executors.newCachedThreadPool();
     }
 
     @Override

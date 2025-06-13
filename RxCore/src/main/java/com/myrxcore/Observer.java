@@ -1,4 +1,4 @@
-package ru.mishazx;
+package com.myrxcore;
 
 public interface Observer<T> {
     void onNext(T item);

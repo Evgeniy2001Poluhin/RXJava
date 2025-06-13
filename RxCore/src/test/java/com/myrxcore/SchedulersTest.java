@@ -1,4 +1,4 @@
-package ru.mishazx;
+package com.myrxcore;
 
 import org.junit.jupiter.api.Test;
 import java.util.Set;
@@ -9,6 +9,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import com.myrxcore.Scheduler;
+import com.myrxcore.Schedulers;
 
 class SchedulersTest {
 
@@ -199,4 +202,4 @@ class SchedulersTest {
         // Проверяем, что для выполнения задач было создано несколько потоков
         assertTrue(threadNames.size() > 1);
     }
-} 
+}

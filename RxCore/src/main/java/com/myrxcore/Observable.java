@@ -1,9 +1,13 @@
-package ru.mishazx;
+package com.myrxcore;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+import com.myrxcore.Disposable;
+import com.myrxcore.Observer;
+import com.myrxcore.Scheduler;
 
 public class Observable<T> {
     private final Consumer<Observer<T>> source;
