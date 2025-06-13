@@ -17,35 +17,6 @@
 
 Проект организован в соответствии со стандартной структурой Maven, а все Java-файлы теперь аккуратно расположены в пакете **`com.myrxcore`**. Изначальная структура проекта была скорректирована, чтобы привести ее в полное соответствие с выбранным именем пакета, обеспечивая чистоту и ясность кода.
 
-### **Актуальная Структура Директорий:**
-.
-├── pom.xml
-├── REPORT.md
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── com
-│   │           └── myrxcore
-│   │               ├── ComputationScheduler.java
-│   │               ├── Disposable.java
-│   │               ├── IOThreadScheduler.java
-│   │               ├── Main.java
-│   │               ├── Observable.java
-│   │               ├── Observer.java
-│   │               ├── Scheduler.java
-│   │               ├── Schedulers.java
-│   │               └── SingleThreadScheduler.java
-│   └── test
-│       └── java
-│           └── com
-│               └── myrxcore
-│                   ├── ObservableTest.java
-│                   └── SchedulersTest.java
-└── target
-└── ... (Результаты сборки Maven)
-
-
-
 # **Отчет о Проекте RxCore: Реактивное Программирование в Действие**
 
 ---
